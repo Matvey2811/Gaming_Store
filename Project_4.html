@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gaming_store_form</title>
+    <style type="text/css">
+        body {   
+            display: flex;  
+            align-items: center;
+            justify-content: center;
+            transition-duration: 0.5s;
+            background-color: black;
+            color: aliceblue;
+            font-family: "Playfair Display", serif;  
+        }
+        .oswald-regular {
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .playfair-display-regular {
+            font-family: "Playfair Display", serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Oswald", sans-serif;
+        }
+        main {
+            border: solid #3C0E66;
+            border-radius: 10px;
+            border-width: 5px;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inp {
+            width: 350px;
+            height: 50px;
+            border-color: blueviolet;
+            border-radius: 10px;
+            border-width: 5px;
+            margin: 0 10px;
+        }
+        .btn {
+            background-color: blueviolet;
+            border-color: blueviolet;
+            border-radius: 10px;
+            height: 80px;
+            width: 760px;
+            margin: 20px 15px;
+            color: aliceblue;
+        }
+        textarea {
+            width: 760px;
+            height: 100px;
+            border-color: blueviolet;
+            border-radius: 10px;
+            border-width: 5px;
+            margin: 0 10px;
+        }
+
+        .n {
+            display: flex;
+            justify-content: space-around;
+        } 
+        
+        @media(max-width: 800px) {
+            .n, .btn, textarea {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            textarea {
+                align-items: center;
+                justify-content: center;
+                width: 350px;
+            }
+            .btn {
+                align-items: center;
+                justify-content: center;
+                width: 350px;
+            }
+        }
+        @media(max-width: 400px) {
+            textarea, .btn, .inp {
+                width: 300px;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaini&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Seymour+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Make an application</h1>
+        </div>
+        <form>
+            <div class="n">
+                <div>
+                    <h2>Your name:</h2>
+                    <input type="text" placeholder="Name" required class="inp _1">
+                </div>
+                <div>
+                    <h2>Your surname:</h2>
+                    <input type="text" placeholder="Surname" required class="inp _1">
+                </div>
+            </div>
+
+            <div class="n">
+                <div>
+                    <h2>Your phone number: </h2>
+                    <input type="number" placeholder="+71234567890" class="inp _2">
+                </div>
+                <div>
+                    <h2>Please choose your country:</h2>
+                    <select required class="inp _2">
+                        <option>Please choose your country</option>
+                        <option>Россия</option>
+                        <option>America</option>
+                        <option>Great Britain</option>
+                        <option>France</option>
+                        <option>Deutschland</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <h2>Others:</h2>
+                <textarea placeholder="Other information"></textarea>
+            </div>
+            
+            <input type="submit" class="btn" value="Send" formaction="Project_5.html">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

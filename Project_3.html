@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gaming_Store_laptop</title>
+        <style type="text/css">
+            body {
+                background: linear-gradient(black, black, #1E0733,#3C0E66);
+                color: aliceblue;
+                transition-duration: 0.5s;
+                font-family: "Playfair Display", serif;
+            }
+            .oswald-regular {
+                font-family: "Oswald", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .playfair-display-regular {
+                font-family: "Playfair Display", serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: "Oswald", sans-serif;
+            }
+            h1, h2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            a {
+                text-decoration: none;
+                color: yellowgreen;
+            }
+            main {
+                display: flex;
+                flex-direction: column;
+            }
+            .row_1, .row_2 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .right {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            p {
+                text-align: center;
+                font-size: large;
+                width: 350px;
+            }
+            .image:hover {
+                transition-duration: 0.5s;
+                transform: scale(1.2);
+            }
+            .image {
+                transition-duration: 0.5s;
+                transform: scale(1);
+            }
+            .buy:hover {
+                transition-duration: 0.5s;
+                transform: rotate(360deg);
+            }
+
+            @media(max-width: 1024px) {
+                .row {
+                    padding-top: 10px;
+                    flex-direction: row;
+                }
+                .colum {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                .row_1, .row_2 {
+                    flex-direction: column;
+                }
+                .img_3 {
+                    width: 350px;
+                    height: 250px;
+                }
+            }
+            @media(max-width: 480px) {
+                .row {
+                    flex-direction: column;
+                }
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jaini&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Seymour+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <h1>Gaming Laptops</h1>
+        </header>
+        <main>
+            <div class="row_1">
+                <div class="colum">
+                    <h2>Nitro</h2>
+                    <div class="row">
+                        <img src="laptop_3.jpg" width="350px" height="250px" class="image">
+                        <div class="right">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque et expedita corporis, maxime delectus obcaecati officiis amet quos cum architecto quibusdam numquam sequi quod possimus aspernatur eligendi. Omnis, consequatur?</p>
+                            <h3>Price: ***$</h3>
+                            <a href="Project_4.html" class="buy"><h2>BUY</h2></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="colum">
+                    <h2>Super Gaming</h2>
+                    <div class="row">
+                        <img src="laptop_2.jpg" width="350px" height="250px" class="image">
+                        <div class="right">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum fuga error accusantium in vero, quam provident ab doloremque, accusamus ea, ad libero ex illo corporis quasi recusandae maxime nesciunt magnam.</p>
+                            <h3>Price: ****$</h3>
+                            <a href="Project_4.html" class="buy"><h2>BUY</h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row_2">
+                <div class="colum">
+                    <h2>Pro Gaming</h2>
+                    <div class="row">
+                        <img src="laptop_1.jpg" width="650px" height="400px" class="image img_3">
+                        <div class="right">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum neque sequi, nihil cupiditate ratione, aliquid maxime corrupti sed et voluptatibus odio dolores quae animi veniam voluptas temporibus. Nemo, ratione consectetur.</p>
+                            <h3>Price: ****$</h3>
+                            <a href="Project_4.html" class="buy"><h2>BUY</h2></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </body>
+</html>

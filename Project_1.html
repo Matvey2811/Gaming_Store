@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gaming_Store_main</title>
+        
+        <style type="text/css">
+            body {
+                background: linear-gradient(black, black, #1E0733,#561493);
+                color: aliceblue;
+                transition-duration: 0.5s;
+                font-family: "Playfair Display", serif;
+            }
+            .oswald-regular {
+                font-family: "Oswald", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .playfair-display-regular {
+                font-family: "Playfair Display", serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: "Oswald", sans-serif;
+            }
+
+            header, h2, p, .info {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .purchases {
+                display: flex;
+                justify-content: space-around;
+            }
+            .dev {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .info {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                font-size: large;
+                padding: 0 200px;
+            }
+            a {
+                text-decoration: none;
+                color: blueviolet;
+            }
+            .image:hover {
+                transition-duration: 0.5s;
+                transform: scale(1.2);
+            }
+            .image {
+                transition-duration: 0.5s;
+                transform: scale(1);
+            }
+            .buy:hover {
+                transition-duration: 0.5s;
+                transform: rotate(360deg);
+            }
+
+            @media(max-width: 1024px) {
+                .info {
+                    padding: 0 120px;
+                }
+            }
+            @media(max-width: 900px) {
+                .info {
+                    padding: 0 80px;
+                }
+                iframe {
+                    width: 550px;
+                    height: 350px;
+                }
+            }
+            @media(max-width: 768px) {
+                .logo_img {
+                    width: 300px;
+                    height: 195px;
+                }
+                .info {
+                    padding: 0 50px;
+                }
+                iframe {
+                    width: 450px;
+                    height: 300px;
+                }
+                .purchases {
+                    flex-direction: column;
+                }
+                .comp_img {
+                    width: 300px;
+                    height: 300px;
+                    padding-bottom: 20px;
+                }
+                .laptop_img {
+                    width: 350px;
+                    height: 280px;
+                }
+            }
+            @media(max-width: 480px) {
+                .logo_img {
+                    width: 230px;
+                    height: 140px;
+                }
+                .info {
+                    padding: 30px;
+                }
+                iframe {
+                    width: 380px;
+                    height: 280px;
+                }
+                .comp_img {
+                    width: 250px;
+                    height: 250px;
+                    padding: 0 15px;
+                }
+                .laptop_img {
+                    width: 300px;
+                    height: 250px;
+                }
+            }
+            @media(max-width: 400px) {
+                .logo_img {
+                    width: 180px;
+                    height: 115px;
+                }
+                iframe {
+                    width: 300px;
+                    height: 230px;
+                }
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jaini&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Seymour+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <h1>Gaming</h1>
+            <img src="logo.jpg" width="400px" height="250px" class="logo_img">
+            <h1>Store</h1>
+        </header>
+        <main>
+            <h2>What do you want to buy?</h2>
+            <div class="purchases">
+
+                <div class="dev">
+                    <h3><a href="Project_2.html">Computers</a></h3>
+                    <img src="Comp.jpg" width="250px" height="250px" class="image comp_img">
+                </div>
+
+                <div class="dev">
+                    <h3><a href="Project_3.html">Laptops</a></h3>
+                    <img src="Laptop.jpg" width="300px" height="250px" class="image laptop_img">
+                </div>
+            </div>
+
+            <h2>Information about us</h2>
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias illum mollitia placeat sequi totam odit sit temporibus incidunt, in laborum porro corrupti odio assumenda dolore minima eligendi quo earum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis itaque in nam eius, reprehenderit consectetur autem iste! Similique ratione accusantium commodi ipsam aut cupiditate laborum, asperiores temporibus recusandae blanditiis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eligendi fugit consequuntur, nostrum placeat eum cumque animi laudantium sit aspernatur, et alias dignissimos expedita doloremque accusamus ad labore nam tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur enim ratione maxime officia molestias vel, quis aut esse, blanditiis consequuntur nihil laborum quas et voluptatem repellendus? Eius, beatae alias?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rerum quam eius, esse consequuntur blanditiis quos quasi? Laboriosam, quisquam corrupti minus saepe accusantium adipisci odio placeat voluptate veritatis voluptatum aut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat fugiat dolore sequi, cum id tempore dolorum voluptate pariatur eveniet, laboriosam officiis harum rem repellat necessitatibus omnis eos consectetur et!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus hic consequuntur ipsum enim distinctio natus fugit animi odio nemo tempora ab aliquam pariatur sequi id nesciunt expedita vero, quis officia! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat expedita voluptas perferendis minus assumenda laborum obcaecati, impedit veniam deleniti autem inventore libero a rerum hic dolores voluptates ex eos itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sint error explicabo maiores ullam quas officiis quos possimus, sunt eius animi deserunt dolores excepturi repellat laboriosam porro nisi dignissimos dolorum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil atque cupiditate quae magnam obcaecati odit, officia minima facilis laboriosam dolor. Distinctio voluptatum nulla deleniti esse nesciunt expedita nemo magni temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam tempore dolorum veritatis, dolores voluptatem ad, blanditiis officia sunt amet ipsa cupiditate quod? Voluptatem quis quaerat minima. Inventore, rerum quos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quas deserunt ipsam perferendis consectetur provident quis, odit, ea accusantium vitae unde est quod fugiat ipsum? Molestiae, modi? Dignissimos, ratione officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, earum quis recusandae officiis quo facilis sint dolores quibusdam expedita omnis odit hic illo veniam itaque voluptatibus fugiat repudiandae tenetur sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci quibusdam porro eos odio quam, sunt voluptate harum deserunt voluptatum dolorem quis, autem necessitatibus minima illum voluptates quo, aliquid aperiam cupiditate.</p>
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/ntzRciCHav8?si=Ay0WTwD0f_lMhPAH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            </div>
+        </main>
+        <footer>
+            <p>made with ♥︎ by Matvey Parkhomov</p>
+        </footer>
+    </body>
